@@ -1,0 +1,487 @@
+/* Overall Script holder*/
+body, html{
+    height: 100%;
+    margin:0;
+    background-color: rgba(18,18,18,255);
+    scroll-behavior: smooth;
+  }
+
+/* Setting up main grid for all webpage*/
+#maingrid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 1fr;
+  }
+
+/* Header and its contents*/
+#topheader {
+    background-color: black;
+  }
+
+#f1Header1 {
+    margin: 0%;
+    padding: 5px 2px 2px 50px;
+    color: white;
+    font-size: 202%;
+  }
+
+
+/* Main bady tag and it contents*/
+/* - The following would be used later to grid the contents of the page for tablet and phone devices*/
+#minimizeGrid {
+    height: 100%;
+  }
+
+/* - The div element that holds the about us info and background image*/
+#DivSec1 {
+    background-image: url("images/background/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 100%;
+  }
+
+/* -- Use the grid the about us div element to the position that we need*/
+#profileGrid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 40% 60%;
+  }
+
+#profile {
+    min-height: fit-content;
+    color: white;
+    text-align: left;
+  }
+
+#f1Header2 {
+    margin-top: 0%;
+    padding: 5px 2px 2px 0px;
+    color: white;
+  }
+
+/* -- resume button css design using the <a> element */
+#buttonresume:link, #buttonresume:visited {
+    /*transform: scale(0.25);
+    pointer-events: none;*/
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    background: #ffffff00;
+    border-radius: 3em;
+    padding: 10px 39px 10px 39px;
+    text-decoration: none;
+  }
+
+  #buttonresume1:link, #buttonresume1:visited {
+    /*transform: scale(0.25);
+    pointer-events: none;*/
+    position: fixed;
+    margin-top: 1%;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    background: #ffffff00;
+    border-radius: 3em;
+    padding: 10px 39px 10px 39px;
+    text-decoration: none;
+  }
+
+  .model_next_button1:link, .model_next_button1:visited, .model_next_button:link, .model_next_button:visited {
+    /*transform: scale(0.25);
+    pointer-events: none;*/
+
+    margin-top: 7%;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    background: #ffffff00;
+    border-radius: 3em;
+    padding: 10px 39px 10px 39px;
+    text-decoration: none;
+  }
+
+/* -- github and linkedin link css*/
+#nav1 {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+#iconNav {
+    float: left;
+  }
+
+#icon {
+    width: 29px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 10%;
+  }
+
+#iconNav:hover {
+  filter: brightness(150%);
+}
+
+/* -- directory to the project div when moves out of site with smaller devices*/
+#scrollOption {
+    display: none;
+}
+
+#autoScollertoProjects {
+    text-decoration: none;
+    color: white;
+  }
+
+/* - The div element that holds the projects contents*/
+#DivSec2 {
+    position: relative;
+    z-index: 1;
+    float: right;
+    top: -100%;
+    text-align: center;
+    color: white;
+    background-color: #12121280;
+    margin: 0%;
+    height: 100%;
+    width: 40%;
+  }
+
+#Immgfromat {
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+  
+  }
+
+.projetsCell{
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+.projetsCell:hover{
+    background-color: #9f9f9fad;
+}
+
+#projectholder{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: min-content;
+    width: 80%;
+    height: 80%;
+    overflow-y:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+  
+  }
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: rgba(18,18,18,255);
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    max-height: 20px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #modelGriding{
+    display: grid;
+    grid-template-columns: 98% 2%;
+    grid-template-rows: minmax(0, 1fr);
+    /* The Close Button */
+    /* The Close Button */
+    /* The Close Button */
+    height: 100%;
+    width: 100%;
+  }
+
+  #innerModelGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  #modelImageHolder{
+    float: left;
+    min-height: 100%;
+    /* height: 100%;
+    width: 60%; */
+    }
+    
+    #modelContentHolder{
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 10% 10% 60% 20%;
+      height: 100%;
+      width:  100%;
+      padding: 10px;
+      color: white;
+      }
+    
+    #modelTitle{
+      margin-top: 0%;
+      padding: 0px 10px 0px 0px;
+      font-weight: bold;
+      font-size:  20px;
+    }
+    
+      #ModalImmgfromat{
+        width: 100%;
+        height: 100%;
+      }
+
+
+    #modeslHeadtwo{
+        margin: 0%;
+        font-weight: bold;
+    }
+
+#codesAndTech{
+    margin: 0px 0px 30px 0px;
+    font-style: italic;
+}
+
+#modelMainContent{
+    overflow-y: overlay;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 100%;
+    padding-right: 18px;
+}
+
+#model_buttons{
+  padding-top: 1%;
+}
+
+.model_next_button{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1506px) {
+  
+    #projectholder{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: none;
+        width: 80%;
+        height: 80%;
+        overflow-y:auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 2px solid #0b0a0d;
+        border-bottom: 2px solid #0b0a0d;
+      
+      }
+    
+  }
+
+  @media only screen and (max-width: 1092px) {
+  
+    #projectholder{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        width: 80%;
+        height: 80%;
+        overflow-y:auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 2px solid #0b0a0d;
+        border-bottom: 2px solid #0b0a0d;
+      
+      }
+    
+  }
+
+  @media only screen and (max-width: 1050px) {
+    #DivSec2 {
+        top: 0%;
+        width: 100%;
+    }
+    #scrollOption {
+        display: block;
+        
+        
+    }
+
+    #scrollCont {
+        max-width: 80%;
+        border-top: 2px solid white;
+    }
+    
+    #minimizeGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100% 100%;
+    }
+
+    #projectholder{
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        width: 80%;
+        height: 80%;
+        overflow-y:auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 2px solid #0b0a0d;
+        border-bottom: 2px solid #0b0a0d;
+      
+      }
+
+    
+  }
+  @media only screen and (max-width: 852px) {
+    #modelImageHolder {
+        display: none;
+    }
+    
+    #innerModelGrid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 688px) {
+    #maingrid {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        /**grid-template-rows: 90px 100%;**/
+        }
+
+    
+  }
+
+
+  @media only screen and (max-width: 671px) {
+    #projectholder{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        width: 80%;
+        height: 80%;
+        overflow-y:auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 2px solid #0b0a0d;
+        border-bottom: 2px solid #0b0a0d;
+      
+      }
+    
+  }
+
+  @media only screen and (max-width: 442px) {
+    #projectholder{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        width: 80%;
+        height: 80%;
+        overflow-y:auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 2px solid #0b0a0d;
+        border-bottom: 2px solid #0b0a0d;
+      
+      }
+    
+  }
+
+  @media only screen and (max-width: 342px) {
+    #maingrid {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 120px 100%;
+        }
+        .modal-content {
+          height: 92%;
+        }
+
+        .modal {
+          padding-top: 30px; /* Location of the box */
+        }
+
+        .model_next_button1:link, .model_next_button1:visited, .model_next_button:link, .model_next_button:visited{
+          /*transform: scale(0.25);
+          pointer-events: none;*/
+      
+          margin-top: 8%;
+        }
+
+        #model_buttons{
+          padding-top: 10%;
+        }
+        
+  }
