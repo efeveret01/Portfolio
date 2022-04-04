@@ -1,0 +1,88 @@
+<projects>
+    <mini_title>
+        COVID-19 POWER BI
+    </mini_title>
+    <title>
+        COVID-19 POWER BI
+    </title>
+    <techniques>
+        SQL, DAX, Micorsoft SQL Sever, and Power BI
+    </techniques>
+    <about>
+        Using Microsoft SQL Server the Covid-19 data downloaded from the 'Our World in Data' webpage [1] is cleaned, imported, and explored. See the CovidDataExploration for the exploration stage.
+	&#60;br&#62;
+	&#60;br&#62;
+        After exploration, information that was seen as "interesting to know" about the Covid-19 situation was made into views to then be imported and visualized by Microsoft Power BI. See the CovidDataViews for the selected data that was imported to the Power BI, and finally look at the Covid_BI_Project for the final dashboard.
+	&#60;br&#62;
+	&#60;br&#62;
+        The two main questions I was looking to answer were:
+        &#60;br&#62;
+        1) How lethal was the virus? and,
+        &#60;br&#62;
+        2) Which countries has the highest concentration of infection?
+	&#60;br&#62;
+	&#60;br&#62;
+        References:
+        [1] https://ourworldindata.org/covid-deaths
+    </about>
+    <pro_images>images/ProjectImg/bi.PNG</pro_images>
+    <link_one type="Video"></link_one>
+    <link_two>https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+    <mini_title>
+        FOREX ML TRADER
+    </mini_title>
+    <title>
+	FOREX MACHINE LEARING AUTO TRADER
+    </title>
+    <techniques>
+	Python, Object-Oriented Programming, GUI, MetaTrader 5 Python Package, and Machine Learning
+    </techniques>
+    <about>
+    </about>
+    <pro_images>images/ProjectImg/tradebot.PNG</pro_images>
+    <link_one></link_one>
+    <link_two></link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+    <mini_title>
+        PORTFOLIO WEBSITE
+    </mini_title>
+    <title>
+	PORTFOLIO WEBSITE
+    </title>
+<techniques>
+	HTML, CSS, Responsive Web Design, XML, AJAX, and JavaScript
+</techniques>
+<about>
+Looking to advance towards my goal of becoming a Software Developer I decided to create a web portfolio where projects could be displayed and easily updated to show both clients and employers my skills.
+The design of the portfolio website was to be efficient, responsive, easy to navigate and easy to update projects without affecting the style of the webpage. Using HTML, JavaScript and CSS the following information can be found all on one page for efficiency:
+-	Name and positions,
+-	Links to social media,
+-	Resume, and 
+-	Detailed descriptions on projects and their relevant links.
+CSS grids were used to create the responsiveness, pl
+
+</about>
+<pro_images>images/ProjectImg/protfolioWebsite.PNG</pro_images>
+<link_one></link_one>
+<link_two></link_two>
+<project_img>images/protfolioWebsite.PNG</project_img>
+
+
+<!-- This is a comment 
+<mini_title>
+</mini_title>
+<title>
+</title>
+<techniques>
+</techniques>
+<about>
+</about>
+<pro_images></pro_images>
+<link_one></link_one>
+<link_two></link_two>
+-->
+
+</projects>
