@@ -1,6 +1,6 @@
 <projects>
     <mini_title>
-        FOREX NEURAL VISUAL
+        FOREX NEURAL VISUAL2
     </mini_title>
     <title>
         FOREX NEURAL TRAINING VISUALIZATION
