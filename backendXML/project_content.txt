@@ -28,7 +28,7 @@
     <pro_images>images/ProjectImg/bi.PNG</pro_images>
     <link_one type="Video"></link_one>
     <link_two>https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_two>
-    <project_img>images/protfolioWebsite.PNG</project_img>
+    <project_img>images/fxNeural.PNG</project_img>
 
     <mini_title>
         COVID-19 POWER BI
