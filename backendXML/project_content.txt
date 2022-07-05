@@ -1,5 +1,36 @@
 <projects>
     <mini_title>
+        FOREX NEURAL VISUAL
+    </mini_title>
+    <title>
+        FOREX NEURAL TRAINING VISUALIZATION
+    </title>
+    <techniques>
+        HTML, CSS, JAVASCRIPT, JQUERY, MACHINE LEARNING, NEURAL TRAINING
+    </techniques>
+    <about>
+        Using Microsoft SQL Server the Covid-19 data downloaded from the 'Our World in Data' webpage [1] is cleaned, imported, and explored. See the CovidDataExploration for the exploration stage.
+	&#60;br&#62;
+	&#60;br&#62;
+        After exploration, information that was seen as "interesting to know" about the Covid-19 situation was made into views to then be imported and visualized by Microsoft Power BI. See the CovidDataViews for the selected data that was imported to the Power BI, and finally look at the Covid_BI_Project for the final dashboard.
+	&#60;br&#62;
+	&#60;br&#62;
+        The two main questions I was looking to answer were:
+        &#60;br&#62;
+        1) How lethal was the virus? and,
+        &#60;br&#62;
+        2) Which countries has the highest concentration of infection?
+	&#60;br&#62;
+	&#60;br&#62;
+        References:
+        [1] https://ourworldindata.org/covid-deaths
+    </about>
+    <pro_images>images/ProjectImg/bi.PNG</pro_images>
+    <link_one type="Video"></link_one>
+    <link_two>https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+    <mini_title>
         COVID-19 POWER BI
     </mini_title>
     <title>
