@@ -25,7 +25,7 @@
         References:
         [1] https://ourworldindata.org/covid-deaths
     </about>
-    <pro_images>images/ProjectImg/bi.PNG</pro_images>
+    <pro_images>images/ProjectImg/fxNeural.PNG</pro_images>
     <link_one type="Video"></link_one>
     <link_two>https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_two>
     <project_img>images/fxNeural.PNG</project_img>
