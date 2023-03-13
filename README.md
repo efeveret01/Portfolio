@@ -1,12 +1,23 @@
 # Web Portfolio
 
+## Description
 
+This is a web portfolio that showcases my projects to potential clients and employers. The design of the website is efficient, responsive, easy to navigate, and allows for easy updating of projects without affecting the webpage's style.
 
-## Web portfolio where projects could be displayed and easily updated to show both clients and employers my skills.
+## Features
 
-The design of the portfolio website was to be efficient, responsive, easy to navigate and easy to update projects without affecting the style of the webpage. 
-As the text file gets updated with new project data in XML format, the website would be update without doing any additional coding in the future.
+* Simple and intuitive interface
+* Easily updatable project data in XML format
+* No additional coding required for updating projects
 
+## Usage
 
-## Visit the portfolio using the following link:
-http://enricoeverett.tech/
+To view the portfolio, please visit the following link: http://enricoeverett.tech/
+
+## Contributing
+
+If you would like to contribute to the project, feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License.
