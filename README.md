@@ -6,9 +6,9 @@ This is a web portfolio that showcases my projects to potential clients and empl
 
 ## Features
 
-* Simple and intuitive interface
-* Easily updatable project data in XML format
-* No additional coding required for updating projects
+* Simple and intuitive interface,
+* Easily updatable project data in XML format, and
+* No additional coding required for updating projects (add project images to determined folder, and record the project data on XML file).
 
 ## Usage
 
