@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- head title and icon set:  -->
+    <title>Enrico EVERETT PROFILE</title>
+    <link rel = "icon" href="images/logo w_back.ico" type = "image/x-icon">
+
+    <!-- main css link for website  -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main_overview_web_stru">
+        <!-- website header  -->
+        <header>
+            <nav class="main_top_header navbar navbar-expand">
+                <h1 class="hd_title navbar-brand">SOFTWARE DEVELOPER</h1>
+            </nav>
+        </header>
+        <!-- main section  -->
+        <main>
+            <div class="overview_content_sec">
+                <!-- left-side/top page (on smaller screen) of main div  -->
+                <div class="profile_overview container">
+                    <img src="images/logo transperent.png" height="407" alt="logo">
+                    <div>
+                        <div>
+                            <h1 class="name_h1">ENRICO F. O. EVERETT</h1>
+                        </div>
+                        <div style="color: black;">
+                            <p>Software and Business Intelligence Developer</p>
+                            <p><i>"Providing Solutions, Not Problems."</i></p>
+                            <a href="assets/doc/Enrico_Everett_Resume.pdf" target="_blank"><button type="button" class="res_btn btn">RESUME</button></a>
+                            <div class="links_sec_div">
+                                <a href="https://www.linkedin.com/in/enrico-everett-26689488/"  target="_blank"><img class="img_links" src="images/linked.png" height="30" alt="LinkedIn/Enrico"></a>
+                                <a href="https://github.com/efeveret01"  target="_blank"><img class="img_links" src="images/githubNEW.png" height="30" alt="GitHub/Enrico"></a>
+                                <img id="email-link" class="img_links" src="images/211660_email_icon.png" height="50" alt="Email me">
+                            </div>
+                            <a href="#project_content_sec" id="autoScollertoProjects" class="autoScollertoProjects">
+                                <div>
+                                    <p class="scrollCont">Scoll down to view projects...▽</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right-side/bottom page (on smaller screen) of main div: for list of projects  -->
+            <div id="project_content_sec" class="project_content_sec">
+                <div class="project_cont container">
+                    <div class="container">
+                        <h3 class="pjt_main_title">PROJECTS</h3>
+                    </div>
+                </div>
+                <div class="border-right-0 border-left-0" style="color: black;">
+                    <div class="pjt_display_div container">   
+                        <div class="pgt_ctn_div justify-content-center">
+                            <!-- the div that the list of project would be posted to from the xml file, using javascript  -->
+                            <div id="projectholder" class="row justify-content-center"></div>
+                            <!-- <div id="myBtn0" class="pjt_tags col-2-sm">
+                                <div id="pClass_0" class="projetsCell">
+                                    <span>
+                                        <p id="titlecenter" class="titlecenter"> FOREX M. L. TRADER </p>
+                                        <img id="Immgfromat" class="img0" src="images/fxNeural.PNG" height="140">
+                                    </span>  
+                                </div>
+
+                            <div id="myBtn0" class="pjt_tags col-2-sm">
+                                <div id="pClass_0" class="projetsCell">
+                                    <p id="titlecenter" class="titlecenter"> [LOCKED - 🔒] </p>
+                                    <img id="Immgfromat" class="img0" src="images/default.jpg" height="140" width="276">
+                                </div>
+                            </div>
+                            <div id="myBtn0" class="pjt_tags col-2-sm">
+                                <div id="pClass_0" class="projetsCell">
+                                    <p id="titlecenter"  class="titlecenter"> [LOCKED - 🔒] </p>
+                                    <img id="Immgfromat" class="img0" src="images/default.jpg" height="140" width="276">
+                                </div>
+                            </div>
+                            <div id="myBtn0" class="pjt_tags col-2-sm">
+                                <div id="pClass_0" class="projetsCell">
+                                    <p id="titlecenter" class="titlecenter"> [LOCKED - 🔒] </p>
+                                    <img id="Immgfromat" class="img0" src="images/default.jpg" height="140" width="276">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- where the different models would be posted to using javascript-->
+                <div id="myModal" class="modal" style="display: none;"></div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+<script type="text/javascript" src="jscript.js"></script>
+<script>
+</script>
+</html>
+

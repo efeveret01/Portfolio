@@ -1,0 +1,158 @@
+<projects>
+
+
+    <mini_title>
+        FOREX NEURAL VISUAL
+    </mini_title>
+    <title>
+        FOREX NEURAL TRAINING VISUALIZATION
+    </title>
+    <techniques>
+        HTML, CSS, JAVASCRIPT, JQUERY, MACHINE LEARNING, NEURAL TRAINING
+    </techniques>
+    <about>
+        The objective of this project was to see the viability of using neural network machine learning to make Forex Trading decisions. Results, so far (looking to improve the project as time goes on), match with reports that say the market is too unpredictable for the neural network to work.
+	&#60;br&#62;
+	&#60;br&#62;
+        The neural network is based around the one created by Daniel Shiffman. The neural network was used to master games like snake and flappy bird, so I wondered if it would be able to find a working strategy to trade on the Forex market.
+	&#60;br&#62;
+	&#60;br&#62;
+        Besides small alteration of the neural script that was designed for P5 JavaScript, there were no real challenges. The data used was scrapped from the live trading platform “MetaTrader 5” using python.
+	&#60;br&#62;
+	&#60;br&#62;
+        In the future I would look into exploring the forex data to see for further condition that can make the neural have better predictions. Also looking into trying genetic neural networking.
+    </about>
+    <pro_images>images/ProjectImg/fxNeural.PNG</pro_images>
+    <link_one type="Test">http://incognitotester.com/</link_one>
+    <link_two>https://github.com/efeveret01/Forex_Neural_Visualizer</link_two>
+    <project_img>images/fxNeural.PNG</project_img>
+    
+    
+    <mini_title>
+        PORTFOLIO WEBSITE
+    </mini_title>
+    <title>
+	PORTFOLIO WEBSITE
+    </title>
+    <techniques>
+    	HTML, CSS, Responsive Web Design, XML, AJAX, and JavaScript
+    </techniques>
+    <about>
+        Looking to advance towards my goal of becoming a Software Developer I decided to create a web portfolio where projects could be displayed and easily updated to show both clients and employers my skills.
+    &#60;br&#62;
+    &#60;br&#62;
+        The design of the portfolio website was to be efficient, responsive, easy to navigate and easy to update projects without affecting the style of the webpage. As the text file gets updated with new project data in XML format, the website would be update without doing any additional coding in the future.
+    &#60;br&#62;
+    &#60;br&#62;
+        The main challenge of the website was the feature of updates in the text file for the project to be collected and presented in a way to not make the website look clunky as more projects are added on.
+    &#60;br&#62;
+    &#60;br&#62;
+        Besides maybe changing the styling and added projects, the websites would not have any other programs attached.
+    </about>
+    <pro_images>images/ProjectImg/protfolioWebsite.PNG</pro_images>
+    <link_one>http://enricoeverett.tech/</link_one>
+    <link_two></link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+
+    <mini_title>
+        PROJECT AGILE
+    </mini_title>
+    <title>
+	    AGILE FRAMEWORK PROJECT MANAGEMENT DESKTOP APPLICATION
+    </title>
+    <techniques>
+	Python, Object-Oriented Programming, and GUI
+    </techniques>
+    <about>
+        One of the subjects covered during my Postgraduate program was the use of agile framework as a systematic way for groups to handle projects, in contrast to the waterfall framework. The project aim was to create a desktop application where individuals, or individuals of groups can record and manage the team’s project tasks.
+    &#60;br&#62;
+    &#60;br&#62;
+        The program uses python constructed in the agile framework format. With each project divided by the periodic scrum periods, task to be completed and meeting on task stages.
+    &#60;br&#62;
+    &#60;br&#62;
+        The main challenge was to try an make it as intuitive as possible to navigate the different projects, meets and tasks. It really let me see the convivence of using websites CSS scripts that is less restrictive than pythons Tkinter.
+    &#60;br&#62;
+    &#60;br&#62;
+        Possible future advancements to the project would be to have it as a website, with login the different member to access on the projects that they are in, rather than only one person making the updates.
+    </about>
+    <pro_images>images/ProjectImg/agileDesktop.PNG</pro_images>
+    <link_one>http://enricoeverett.tech/assets/exeFile/agileEXE.zip</link_one>
+    <link_two></link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+    
+    
+    <mini_title>
+        COVID-19 POWER BI
+    </mini_title>
+    <title>
+        COVID-19 POWER BI
+    </title>
+    <techniques>
+        SQL, DAX, Micorsoft SQL Sever, and Power BI
+    </techniques>
+    <about>
+        Using Microsoft SQL Server, the Covid-19 data downloaded from the 'Our World in Data' webpage [1] is cleaned, imported, and explored.
+	&#60;br&#62;
+	&#60;br&#62;
+        After exploration, information that was seen as "interesting to know" about the Covid-19 situation was made into views to then be imported and visualized by Microsoft Power BI. See the CovidDataViews for the selected data that was imported to the Power BI, and finally look at the Covid_BI_Project for the final dashboard.
+	&#60;br&#62;
+	&#60;br&#62;
+        The two main questions I was looking to answer were:
+        &#60;br&#62;
+        1) How lethal was the virus? and,
+        &#60;br&#62;
+        2) Which countries has the highest concentration of infection?
+	&#60;br&#62;
+	&#60;br&#62;
+        References:
+        [1] https://ourworldindata.org/covid-deaths 
+    </about>
+    <pro_images>images/ProjectImg/bi.PNG</pro_images>
+    <link_one type="Video">https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_one>
+    <link_two>https://github.com/efeveret01/Covid_Exploration_And_Visualization</link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+
+    <mini_title>
+        PASSWORD GENERATOR
+    </mini_title>
+    <title>
+	    PASSWORD GENERATOR
+    </title>
+    <techniques>
+	    Python, Object-Oriented Programming, and GUI
+    </techniques>
+    <about>
+        Here we have the password generating desktop application. The main aim for such a simple application is to help generate quick passwords that require complex characters for certain websites, but also to if there were any consistence when using pythons random feature.
+    &#60;br&#62;
+	&#60;br&#62;
+	    The main design of the application uses the python random feature against arrays of classes of different types of characters.
+	&#60;br&#62;
+	&#60;br&#62;
+	    There were no main challenges creating the application.
+	&#60;br&#62;
+	&#60;br&#62;
+	    I would like to implement what was learnt from this project to see if I can develop an encrypted script so that programs can’t derive the passwords of websites that require the use of passwords.
+    </about>
+    <pro_images>images/ProjectImg/passGen.PNG</pro_images>
+    <link_one>http://enricoeverett.tech/assets/exeFile/password_GUI.exe</link_one>
+    <link_two></link_two>
+    <project_img>images/protfolioWebsite.PNG</project_img>
+
+
+<!-- This is a comment 
+<mini_title>
+</mini_title>
+<title>
+</title>
+<techniques>
+</techniques>
+<about>
+</about>
+<pro_images></pro_images>
+<link_one></link_one>
+<link_two></link_two>
+-->
+
+</projects>
